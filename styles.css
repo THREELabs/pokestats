@@ -1,11 +1,35 @@
+body {
+	background-image: url(img/bg.jpg);
+	background-repeat:no-repeat;
+	background-size:auto;
+	background-position:center;
+	background-color:#000;
+
+}
+
 .pokemon {
 	text-align:center;
 	text-transform: capitalize;
 	background-color:#000;
 	color:#fff;
-	padding: 25px 25px 25px 25px;
-	width:"500px;"
+	padding:25px 25px 25px 25px;
+	width:25%;
+	margin:1%;
+	border-radius: 25px;
+	border: 10px solid #fff;
 }
+
 .spec {
 	padding-right:20px;
+	font-weight:bold;
+	font-size:25px;
+}
+
+.name {
+	font-weight:bold;
+	font-size:25px;
+}
+
+.avatar {
+	width:40%;
 }

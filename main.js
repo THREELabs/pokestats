@@ -1,7 +1,7 @@
 const apiData = {
 	url: 'https://pokeapi.co/api/v2/',
 	type: 'pokemon',
-	id: '180',
+	id: '200',
 }
 const {url, type, id} = apiData
 
@@ -23,10 +23,9 @@ const generateHtml = (data) => {
 
 const html = `
 	<div class="name">${data.name}</div>
-	<img src=${data.sprites.front_default}>
+	<img class="avatar" src=${data.sprites.front_default}>
 	<div class="details">
 		<span class="spec">Height: ${data.height}</span>
-		
 		<span class="spec">Weight: ${data.weight}</span>
 	</div>`
 
